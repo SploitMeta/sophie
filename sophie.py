@@ -32,8 +32,8 @@ def sophie(string):
         print(time.ctime())
 
     elif "say" in filtered_sentence:
-        speak(filtered_sentence)
-
+        output = ' '.join(filtered_sentence[1:])
+        speak(output)
 
         
 
