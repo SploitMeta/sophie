@@ -22,10 +22,10 @@ def sophie(string):
   
 
     if "hallo" in filtered_sentence:
-        speak("Hallo " + username)
+        speak("Hallo!")
 
     elif "tschüss" in filtered_sentence:
-        speak("Bis dann " + username + "!")
+        speak("Bis dann!")
         quit()
 
     elif "time" in filtered_sentence:
@@ -37,6 +37,9 @@ def sophie(string):
         
     elif "wie geht es dir" in string:
         speak('Mir geht es gut!')
+
+    elif "how much is the fish" in string:
+        os.system("mpg123 -q howmuchisthefish.mp3")
         
         
 
