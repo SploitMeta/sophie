@@ -21,7 +21,7 @@ def sophie(string):
                 filtered_sentence = [w for w in word_list]
   
 
-    if "hello" in filtered_sentence:
+    if "hallo" in filtered_sentence:
         speak("Hallo " + username)
 
     elif "tschüss" in filtered_sentence:
@@ -31,10 +31,13 @@ def sophie(string):
     elif "time" in filtered_sentence:
         print(time.ctime())
 
-    elif "say" in filtered_sentence:
+    elif "sag" in filtered_sentence:
         output = ' '.join(filtered_sentence[1:])
         speak(output)
-
+        
+    elif "wie geht es dir" in string:
+        speak('Mir geht es gut!')
+        
         
 
 
