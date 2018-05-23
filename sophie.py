@@ -32,7 +32,7 @@ def sophie(string):
         print(time.ctime())
 
     elif "sag" in filtered_sentence:
-        output = ' '.join(filtered_sentence[1:])
+        output = ' '.join(word_list[1:])
         speak(output)
         
     elif "wie geht es dir" in string:
