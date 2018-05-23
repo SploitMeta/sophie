@@ -24,7 +24,7 @@ def sophie(string):
     if "hello" in filtered_sentence:
         speak("Hallo " + username)
 
-    elif "bye" in filtered_sentence:
+    elif "tschüss" in filtered_sentence:
         speak("Bis dann " + username + "!")
         quit()
 
